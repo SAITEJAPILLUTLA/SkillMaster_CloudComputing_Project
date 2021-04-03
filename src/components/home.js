@@ -3,8 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { useContext } from 'react';
 import { Redirect } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-
-import Countdown from 'react-countdown';
 import '../components/home.css'
 import signInWithGoogle  from "../providers/UserProvider";
 import firebase from "firebase/app";
